@@ -104,12 +104,13 @@ header nav li a.active {
 .img-after-nav-bar {
     width: 100vw;
     overflow: hidden;
+    position: relative;
 }
 
 .img-after-nav-bar img {
     width: 100%;
     height: auto;
-    position: relative;
+    
 }
 
 .img-after-nav-bar div {
@@ -137,6 +138,7 @@ header nav li a.active {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+    width: 100vw;
 }
 
 .features div {
@@ -145,7 +147,6 @@ header nav li a.active {
     height: 400px;
     margin: 10px;
     overflow: hidden;
-    border: 1px solid blue;
 }
 
 .features div.text {
@@ -304,6 +305,16 @@ footer p.copyright {
 
     header nav li a {
         font-size: 12px;
+    }
+
+    .features {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features div {
+        width: 90%;
     }
 
     footer {
