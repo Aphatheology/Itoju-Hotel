@@ -317,6 +317,17 @@ footer p.copyright {
         width: 90%;
     }
 
+    .features div h2 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+
+    .features div p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
     footer {
         padding: 25px;
     }
